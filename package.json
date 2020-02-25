@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
-    "build": "sapper build",
+    "export": "sapper build",
     "changelog": "npx generate-changelog",
-    "export": "sapper export",
+    "build": "sapper export",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
