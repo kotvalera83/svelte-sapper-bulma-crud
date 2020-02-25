@@ -47,16 +47,6 @@
   <div class="navbar-brand">
     <a class="navbar-item" href="home">
       <img
-        src="https://bulma.io/images/bulma-logo.png"
-        width="112"
-        alt="Bulma"
-        height="28" />
-      <img
-        src="https://svelte.dev/svelte-logo-horizontal.svg"
-        width="112"
-        alt="Svelte"
-        height="28" />
-      <img
         src="https://sapper.svelte.dev/sapper-logo-horizontal.svg"
         width="112"
         alt="Sapper"
@@ -90,19 +80,6 @@
         </a>
       {/each}
 
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a
-            href="https://github.com/danielschmitz/svelte-sapper-bulma-crud"
-            target="_blank"
-            class="button is-light">
-            GitHub
-          </a>
-        </div>
-      </div>
     </div>
   </div>
 </nav>
